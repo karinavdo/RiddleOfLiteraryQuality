@@ -1,0 +1,157 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap'); */
+
+@font-face {
+    font-family: 'Anchor-Jack';
+    src:url('/RiddleOfLiteraryQuality/public/webfonts/Anchor-Jack.ttf.woff') format('woff'),
+        url('/RiddleOfLiteraryQuality/public/webfonts/Anchor-Jack.ttf.svg#Anchor-Jack') format('svg'),
+        url('/RiddleOfLiteraryQuality/public/webfonts/Anchor-Jack.ttf.eot'),
+        url('/RiddleOfLiteraryQuality/public/webfonts/Anchor-Jack.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+  /* NOTE: Overrides the max-width set by pool.css. */
+  /* TODO: This needs checking for responsiveness (smaller screens) */
+  max-width: 52rem;
+}
+
+#riddle_title_logo {
+  width: 100%;
+  text-align: center;
+}
+
+#riddle_title_book {
+  width:10%;
+  position:relative;
+  top:-370px;
+  z-index:-1;
+}
+
+#riddle_title_chart {
+  width:10%;
+  position:relative;
+  top:-150px;
+  left: 350px;
+  z-index:-1;
+}
+
+.level2 {
+  padding-left: 1rem;
+  padding-bottom: 0.2rem;
+}
+
+.collapsed #sidebar_cloak {
+  transition: 0.5s;
+  opacity: 0%;
+  z-index: 2;
+  visibility: hidden;
+}
+
+#sidebar_cloak {
+  opacity: 100%;
+}
+
+#sidebar {
+  padding: 0;
+}
+
+.sidebar-nav-item {
+  border-top: 1px dotted #123e60;
+}
+
+#sidebar.sidebar.collapsed {
+  padding: 2rem 0.4rem;
+}
+
+.sidebar-about {
+  padding: 1em;
+  background-color: #1a1919;
+}
+
+.sidebar-about h1 {
+  font-family: 'Anchor-Jack', serif;
+  font-size: 1.75rem;
+  text-decoration: none;
+  color: #d7ead8; /* NOTE: affects only the underline due to anchor coloring. */
+}
+
+.sidebar-about h1 a {
+  color: #fff36f;
+  text-decoration: none;
+}
+
+#hamburger_container {
+  position: fixed;
+  top: 1rem;
+  width: 25vw;
+  min-width: 300px;
+  height: 40px;
+  /* background-color: #444; */
+  z-index: 2;
+  transition: 0.5s;
+}
+
+#hamburger_container.collapsed {
+  width: 1rem;
+  min-width: 0px;
+}
+
+#hamburger_icon {
+  position: absolute;
+  right: -19px;
+  height: 40px;
+  width: 40px;
+  transform: rotate(180deg);
+  transition: 1.5s;
+}
+
+#hamburger_container.collapsed > #hamburger_icon {
+  position: absolute;
+  right: -19px;
+  height: 40px;
+  width: 40px;
+  transform: rotate(0deg);
+  transition: 1.5s;
+}
+
+.chart_float {
+  float: left;
+}
+
+div.page p br {
+  margin-bottom: 0.6em;
+}
+
+p img {
+  margin: 1rem 0rem 1rem 0rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  border: 1px solid #3b81b7;
+}
+
+.small_print a {
+  color: rgba(255,255,255,.5);
+  text-decoration: none;
+}
+
+/* TODO: avoid these hacks */
+#chart_3-4b_genre-reading-diversity, #chart_3-4b_genre-reading-diversity-rel, #resp_read_genre_enlarged {
+  width: 100%;
+  text-align: center;
+}
+#chart_3-4b_genre-reading-diversity-rel {
+  margin-top: 2rem;
+  padding-bottom: 6rem;
+}
+
+.chart_thumb {
+  border: 1px solid #efefee;;
+}
+
+.chart_thumb:hover {
+  border: 1px solid #73a8d0;
+  background-color: #f2f3f4;
+  border-radius: 5px;
+}

@@ -1,0 +1,106 @@
+/*
+ * Global resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+html {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+}
+@media only screen and (min-width: 200px) {
+  html {
+    font-size: 9pt;
+  }
+}
+@media only screen and (min-width: 450px) {
+  html {
+    font-size: 12pt;
+  }
+}
+
+
+/*
+ * Sidebar
+ *
+ * Flexible banner for housing site name, intro, and "footer" content. Starts
+ * out above content in mobile and later moves to the side with wider viewports.
+ */
+
+/* Small devices */
+.sidebar {
+  text-align: center;
+  width: 25vw;
+  min-width: 300px;
+  padding: 2rem 1rem;
+  color: rgba(255,255,255,.5);
+  background-color: #3b81b7;
+  transition: 0.5s;
+  border-right: 2px solid #1a1919;
+}
+/* Overrides of the above for bigger devices */
+@media (min-width: 48em) {
+  .sidebar {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* white-space: nowrap; */
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 25vw;
+    min-width: 300px;
+    text-align: left;
+    transition: 0.5s;
+  }
+}
+
+.sidebar.collapsed {
+  width: 0vw;
+  min-width: 0px;
+  white-space: nowrap;
+}
+
+/* Sidebar links */
+.sidebar a {
+  color: #1a1919;
+}
+
+/* About section */
+.sidebar-about h1 {
+  color: #fff;
+  margin-top: 0;
+  font-family: "Abril Fatface", serif;
+  font-size: 3.25rem;
+}
+
+/* Sidebar nav */
+.sidebar-nav {
+  opacity: 100%;
+  margin: 1rem;
+}
+.sidebar-nav-item {
+  display: block;
+  line-height: 1.75;
+}
+a.sidebar-nav-item:hover,
+a.sidebar-nav-item:focus {
+  /* text-decoration: underline; */
+  text-decoration: none;
+  color: #fff36f;
+}
+.sidebar-nav-item.active {
+  font-weight: bold;
+}
+
+/* Container
+ *
+ * Align the contents of the site above the proper threshold with some margin-fu
+ * with a 25%-wide `.sidebar`.
+ */
+
+.content {
+  padding-top:    4rem;
+  padding-bottom: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+}

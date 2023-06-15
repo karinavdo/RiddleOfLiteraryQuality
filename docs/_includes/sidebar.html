@@ -1,0 +1,129 @@
+
+<a href="{{ site.baseurl }}/">
+  <div class="collapsed" id="hamburger_container">
+    <div id="hamburger_icon" class="openbtn" onclick="toggleSidebar();event.preventDefault();">
+      <img src="public/menu.svg" alt="menu hamburger button"/>
+    </div>
+  </div>
+</a>
+
+<div class="sidebar collapsed" id="sidebar">
+  <div class="sidebar_cloak" id="sidebar_cloak">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}/"><span id="sidebar_title_line_1">{{ site.title_line_1 }}</span></a><br/>
+        <a href="{{ site.baseurl }}/"><span id="sidebar_title_line_2" style="letter-spacing: 1pt;">{{ site.title_line_2 }}</span></a>
+      </h1>
+      <!-- p class="lead">{{ site.description }}</p -->
+    </div>
+
+    <nav class="sidebar-nav">
+
+     {% comment %}
+       The code below dynamically generates the 'home' entry in the sidebar.
+     {% endcomment %}
+
+     {% assign pages_list = site.pages %}
+     {% for node in pages_list %}
+       {% if node.title != null and node.home == "true" %}
+         {% if node.layout == "page" %}
+           <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+         {% endif %}
+       {% endif %}
+     {% endfor %}
+
+
+    {% comment %}
+      The code below dynamically generates a sidebar nav of pages with
+      `layout: page` in the front-matter. See readme for usage.
+    {% endcomment %}
+
+
+    {% assign pages_list = site.pages %}
+    {% for node in pages_list %}
+      {% if node.title != null and node.home != "true" %}
+        {% if node.layout == "page" %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+<!--
+      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
+      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+-->
+      <br/><br/><br/>
+      <small class="small_print">
+        <span class="sidebar-nav-item" style="padding-top: 1rem;">
+          Site version v{{ site.version }} ({{ site.time | date: '%Y' }})
+        <br/>
+        <a rel="license" href="https://github.com/karinavdo/RiddleOfLiteraryQuality">Download source at GitHub</a>
+        <br/><br/>
+        <span>
+          <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+            <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+            This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License.
+          </a>
+        </span>
+      </small>
+      <br/><br/>
+    </nav>
+
+  </div>
+</div>
+
+
+
+<script>
+// These functions hide or reveal the links in the side bar after the
+// sidebar has been rolled up out of view or out in to view. We need to
+// hide an unhide those links because otherwise their remnants in the
+// collapsed sidebar are still clickable.
+document.getElementById( 'sidebar_cloak' ).addEventListener( 'transitionend', function(e) {
+  const sideBarCloak = document.getElementById( "sidebar_cloak" );
+  if( e.propertyName == 'opacity' ) {
+    if( sideBarCloak.style.opacity.startsWith( '0' ) ) {
+      sideBarCloak.style.visibility = 'hidden';
+    }
+  }
+});
+document.getElementById( 'sidebar_cloak' ).addEventListener( 'transitionstart', function(e) {
+  const sideBarCloak = document.getElementById( "sidebar_cloak" );
+  if( e.propertyName == 'opacity' ) {
+    if( sideBarCloak.style.opacity.startsWith( '1' ) ) {
+      sideBarCloak.style.visibility = 'visible';
+    }
+  }
+});
+
+
+// This function collapses or uncollapses the sidebar.
+const toggleSidebar = function() {
+  const sideBar = document.getElementById( 'sidebar' );
+  const hamburger_container = document.getElementById( 'hamburger_container' );
+  if( sideBar.classList.contains( 'collapsed' ) ) {
+    sideBar.classList.remove( 'collapsed' )
+    hamburger_container.classList.remove( 'collapsed' )
+  } else {
+    sideBar.classList.add( 'collapsed' )
+    hamburger_container.classList.add( 'collapsed' )
+  }
+}
+
+document.getElementById( 'sidebar' ).addEventListener( 'mouseleave', function( e ){
+  const sideBar = document.getElementById( 'sidebar' );
+  if( !sideBar.classList.contains( 'collapsed' ) ){
+    var cancel = false;
+    var hamburger_bbox = document.getElementById( 'hamburger_container' ).getBoundingClientRect();
+    if( ( e.clientX >= hamburger_bbox.left ) && ( e.clientX <= hamburger_bbox.right )  ){
+      if( ( e.clientY >= hamburger_bbox.top ) && ( e.clientY <= hamburger_bbox.bottom )  ){
+        cancel = true;
+      }
+    }
+    if( !cancel ){
+      toggleSidebar();
+    };
+  }
+});
+
+</script>
