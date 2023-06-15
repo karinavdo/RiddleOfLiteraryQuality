@@ -3,19 +3,8 @@
 This is the source of the io.pages website at https://karinavdo.github.io/RiddleOfliteraryQuality.
 
 <div>
-    Content: <a href="https://www.huygens.knaw.nl/medewerkers/karina-van-dalen-oskam/">Karina van Dalen-Oskam</a> <a href="https://www.huygens.knaw.nl/medewerkers/karina-van-dalen-oskam/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></div>
+    Content: <a href="https://www.huygens.knaw.nl/medewerkers/karina-van-dalen-oskam/">Karina van Dalen-Oskam</a> <a href="https://www.huygens.knaw.nl/medewerkers/karina-van-dalen-oskam/">![Link to personal page](https://raw.githubusercontent.com/karinavdo/RiddleOfLiteraryQuality/main/docs/public/link.svg?sanitize=true)</a>
+</div>
 <div>
-    Content and code: <a href="https://foxandbadger.org/about/">Joris J. van Zundert</a> <a href="https://foxandbadger.org/about/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a>
+    Content and code: <a href="https://foxandbadger.org/about/">Joris J. van Zundert</a> <a href="https://foxandbadger.org/about/">![Link to personal page](https://raw.githubusercontent.com/karinavdo/RiddleOfLiteraryQuality/main/docs/public/link.svg?sanitize=true)</a>
 <div>
-
-s
-![Alt text](https://raw.githubusercontent.com/karinavdo/RiddleOfLiteraryQuality/main/docs/public/link.svg?sanitize=true)
-
-ns
-![Alt text](https://raw.githubusercontent.com/karinavdo/RiddleOfLiteraryQuality/main/docs/public/link.svg)
-
-img
-<img src="https://raw.githubusercontent.com/karinavdo/RiddleOfLiteraryQuality/main/docs/public/link.svg"></img>
-
-imgs
-<img src="https://raw.githubusercontent.com/karinavdo/RiddleOfLiteraryQuality/main/docs/public/link.svg?sanitize=true"></img>
