@@ -6,14 +6,12 @@ home: "true"
 ---
 ![1_1_1_Omslag_promo 1.1.1](public/1_1_1_Omslag_promo.png)
 
-[NIEUWS](02_03_nieuws.html) | [BLOGS](02_04_blogs.html) | [AGENDA](02_05_agenda.html) | [IN DE MEDIA](02_06_in_de_media.html) | [DATA EN R PACKAGE](02_07_data_en_R_package.html)
+[NEWS](02_03_news.html) | [IREVIEWS](02_06_reviews.html) | [DATA AND R PACKAGE](02_07_data_and_the_R_package.html)
 
-Op deze website is aanvullende informatie te vinden bij het boek *Het raadsel literatuur. Is literaire kwaliteit meetbaar?* van Karina van Dalen-Oskam. Het boek is verschenen op 9 november 2021 bij [Amsterdam University Press](https://www.walburgpers.nl/nl/book/9789463724975/het-raadsel-literatuur?redirect=aup).
+This page will present additional information to the monograph *The Riddle of Literary Quality: A Computational Approach* by Karina van Dalen-Oskam. The book will be published on 26 June 2023 by [Amsterdam University Press](https://www.walburgpers.nl/nl/book/9789463724975/het-raadsel-literatuur?redirect=aup).
 
-Via de linker navigatiebalk zijn kleurenversies van de grafieken in het boek te vinden, aangevuld met extra grafieken. Een aantal daarvan is interactief. Via de links hierboven vindt u algemene informatie (nieuws, blogs, agenda, in de media) over het boek en informatie over het R package met de data waarmee de metingen uit het boek herhaald en gecontroleerd kunnen worden.
+The ">"" in the red circle on the left top of the page leads to the overview of colour versions of the graphs published in the book, with additional graphs and information. Many of the graphs have interactive features. The tab "News" contains general information about the monograph and "Reviews" presents an overview of reviews of the book and other kinds of responses. "Data and R Package" list information about the litRiddle R package that contains all data that may be shared and which can be used to replicate and verify the research presented in the book.
 
-Deze website is *work-in-progress* en wordt regelmatig aangevuld en bijgewerkt.
+The site is developed by Joris van Zundert. It contains contributions by Karina van Dalen-Oskam, Joris van Zundert, Maciej Eder, and Saskia Lensink. For remarks, mail [Karina van Dalen-Oskam](https://www.huygens.knaw.nl/en/medewerkers/karina-van-dalen-oskam-2/).
 
-De site is ontwikkeld door Joris van Zundert. De meeste bijdragen zijn van Karina van Dalen-Oskam, Joris van Zundert, Maciej Eder, en Saskia Lensink. Reacties? Mail [Karina van Dalen-Oskam](https://www.huygens.knaw.nl/medewerkers/karina-van-dalen-oskam/).
-
-*Laatst bijgewerkt op* 28 februari 2023.
+*Last updated 16 June 2023*.
