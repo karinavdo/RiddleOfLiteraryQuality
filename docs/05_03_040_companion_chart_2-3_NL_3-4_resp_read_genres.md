@@ -2,10 +2,10 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-title:  "Grafiek 3.3 Aantal boeken gelezen per categorie"
+title:  "Figure 2.3: Number of books read per category"
 
 ---
-Interactieve versie van de grafiek op p. 53 van *Het raadsel literatuur*.
+Interactive version of the graph on p. 44 of *The Riddle of Literary Quality*.
 
 <script src="https://d3js.org/d3.v6.min.js" defer></script>
 <script src="https://d3js.org/d3-scale.v3.min.js" defer></script>
@@ -23,7 +23,7 @@ Interactieve versie van de grafiek op p. 53 van *Het raadsel literatuur*.
 <script src="js/companion_resp_read_romantic.js" defer></script>
 <script src="js/companion_resp_read_other.js" defer></script>
 
-Door te klikken op een van de vier kleine grafieken ziet u in de grotere grafiek daaronder meer informatie over de geselecteerde categorie. Een klik op een specifieke balk maakt de onderliggende aantallen zichtbaar. Het bereik van de horizontale as van de grote grafiek is aan te passen door de twee tabmarkeringen te verslepen.
+Clicking on one of the four small graphs shows more information about the selected category in the larger graph below. A click on a specific bar reveals the underlying numbers. The range of the horizontal axis of the large graph can be adjusted by dragging the two tab markers.
 
 <div class="chart_float chart_thumb" id="resp_read_fiction">
   <div class="plot"></div>
@@ -43,5 +43,4 @@ Door te klikken op een van de vier kleine grafieken ziet u in de grotere grafiek
   <div class="slider"></div>
 </div>
 
-<!-- **Hoe zijn de metingen te repliceren?**
-VOORBEELDQUERY HIER! -->
+

@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 # kleur is een html kleurnaam of een code #dfdfdf (heel wit). Color picker: https://htmlcolorcodes.com/.
-title:  "<b>Additional figure</b> Number of read books per year per age group"
+title:  "<b>Additional figure</b>: Number of read books per year per age group"
 
 ---
 Interactieve grafiek ter verdieping van Grafiek 3.1 op p. 48 van *Het raadsel literatuur*.
