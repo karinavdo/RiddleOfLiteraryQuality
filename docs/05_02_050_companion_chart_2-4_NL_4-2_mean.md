@@ -2,10 +2,10 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-title:  "Grafiek 4.2 Gemiddelde score van de 401 boeken"
+title:  "Figure 2.4: Mean scores for all 401 books"
 
 ---
-Interactieve kleurenversie van de grafiek op p. 64 van *Het raadsel literatuur*.
+Interactive version of the graph on p. 47 of *The Riddle of Literary Quality*.
 
 <script src="https://d3js.org/d3.v6.min.js" defer></script>
 <script src="https://d3js.org/d3-scale.v3.min.js" defer></script>
@@ -22,7 +22,4 @@ Interactieve kleurenversie van de grafiek op p. 64 van *Het raadsel literatuur*.
   <div class="plot"></div>
 </div>
 
-Een klik op een balk in de grafiek maakt zichtbaar hoeveel van de 401 boeken die gemiddelde score kregen.
-
-<!-- **Hoe zijn de metingen te repliceren?**
-VOORBEELDQUERY HIER! -->
+A click on a bar in the graph reveals how many of the 401 books got that average score.
