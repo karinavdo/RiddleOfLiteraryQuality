@@ -14,4 +14,4 @@ The ">"" in the red circle on the left top of the page leads to the overview of 
 
 The site is developed by Joris van Zundert. It contains contributions by Karina van Dalen-Oskam, Joris van Zundert, Maciej Eder, and Saskia Lensink. For remarks, mail [Karina van Dalen-Oskam](https://www.huygens.knaw.nl/en/medewerkers/karina-van-dalen-oskam-2/).
 
-*Last updated 16 June 2023*.
+*Last updated 19 June 2023*.
