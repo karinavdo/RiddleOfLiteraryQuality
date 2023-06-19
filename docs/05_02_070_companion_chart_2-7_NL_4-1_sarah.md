@@ -2,7 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-title:  "Figure 2.7: Ratings of Tatiana de Rosnay, *Haar naam was Sarah* (*Sarah’s Key*)"
+title:  "Figure 2.7: Ratings of Tatiana de Rosnay, <i>Haar naam was Sarah</i> (<i>Sarah’s Key</i>)"
 
 ---
 Interactive version of the graph on p. 51 of *The Riddle of Literary Quality*.
