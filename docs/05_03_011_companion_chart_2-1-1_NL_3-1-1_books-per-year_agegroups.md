@@ -6,7 +6,7 @@
 title:  "<b>Additional figure</b>: Number of read books per year per age group"
 
 ---
-Interactieve grafiek ter verdieping van Grafiek 3.1 op p. 48 van *Het raadsel literatuur*.
+Zooming in on Figure 2.2 on p. 42 of *The Riddle of Literary Quality*.
 
 
 <script src="https://d3js.org/d3.v6.min.js" defer></script>
