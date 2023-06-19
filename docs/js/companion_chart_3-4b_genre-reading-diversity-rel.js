@@ -2,9 +2,9 @@ function rel_burst(){
 
   var category_labels = { 
     'en': {
-      'Fiction': 'Ficyion',
-      'Suspense': 'Ssuspense',
-      'Romantic': 'Romantic',
+      'Fiction': 'Literary novel',
+      'Suspense': 'Suspense',
+      'Romantic': 'Romance',
       'Other': 'Other'
     },
     'nl': {
