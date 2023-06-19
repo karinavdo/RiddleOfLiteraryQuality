@@ -1,11 +1,11 @@
 ---
-title: "<b>Extra grafieken</b> <i>Vijftig tinten</i> en Spanning geschreven door mannen"
+title: "<b>Additional graphs</b> <i>Fifty Shades</i> and Suspense witten by men"
 
 ---
 
-Extra grafieken bij p. 245 van *Het raadsel literatuur*.
+Additional graphs for p. 72 of *The Riddle of Literary Quality*.
 
-Ook deze grafieken zijn gemaakt met het Stylo Package for R. Zie  Grafiek 4.5 voor meer informatie over het package en de verschillende maten.
+These graphs have also been created using the Stylo Package for R. See Figure 3.1 for more information about the package and the measures.
 
 In *Het raadsel literatuur* zijn twee grafieken afgedrukt waarin de *Vijftig tinten*-trilogie van E.L. James wordt vergeleken met andere romans om uit te vinden op welk genre de boeken het meeste lijken in woordfrequenties; in Grafiek 9.2 met Romantiek en in Grafiek 9.3 met Spanning van de hand van vrouwelijke auteurs. In Grafiek 9.3 zijn alleen de spannende boeken van vrouwen opgenomen omdat de visualisatie anders niet meer leesbaar zou zijn. Hier presenteer ik ook de grafieken waarin de trilogie wordt vergeleken met Spanning geschreven door mannelijke auteurs. Een vergelijking met de Literaire romans uit het onderzoekscorpus staat in een volgende webpagina.
 
