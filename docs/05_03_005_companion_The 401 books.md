@@ -2,7 +2,7 @@
 title: "The 401 Books"
 
 ---
-Hoe de boeken voor het onderzoek zijn geselecteerd staat beschreven op p. 42-44 van *Het raadsel literatuur*. In Bijlage 2 van het boek (p. 320-329) zijn ze gepresenteerd van hoogste gemiddelde score voor literaire kwaliteit naar laagste en staat bovendien aangegeven welke gemiddelde score voor algemene kwaliteit de boeken kregen van de deelnemers aan Het Nationale Lezersonderzoek. Op deze webpagina vindt u de lijst in de volgorde zoals die in de enquête aan de deelnemers werd voorgelegd. Het nummer links is de ID van het boek. Hiermee kunt u in het R package nog meer informatie vinden over het boek, de auteur, en de meningen van lezers en niet-lezers. Zie een korte handleiding daarvoor onderaan deze webpagina.
+How the books were selected for the study is described on pp. 35-37 of *The Riddle of Literary Quality*. In Appendix 2 of the book (pp. 204-213), they are presented from highest average score for literary quality to lowest and, in addition, the average score for general quality the books received from participants in The National Reader Survey is indicated. On this webpage, you will find the list in the order as it was presented to participants in the survey. The number on the left is the ID of the book. It allows you to find even more information about the book, the author, and the opinions of readers and non-readers in the R package. The package also includes the English title of the book or a provisional translation of the title into English. At the bottom of this webpage more information can be found on how to do that.
 
 
 1	Tatiana de Rosnay,	*Haar naam was Sarah*<br>
@@ -409,7 +409,7 @@ Hoe de boeken voor het onderzoek zijn geselecteerd staat beschreven op p. 42-44 
 
 **Meer over de boeken in het R package**
 
-In het *litRiddle* [R package](02_07_data_en_R_package.html) is meer informatie te vinden over de boeken op de lijst. Stel, u zoekt informatie over Emma Donoghue's *Kamer*. Dan geeft u na het laden van het package de volgende opdrachten in R:
+In the *litRiddle* [R package](02_07_data_and_the_R_package.html) more information about these books can be found. For example: when searching for details about Emma Donoghue's *Kamer* (*Room*), after installing and loading the litRiddle package input the following code in R:
 
 - data(books)<br>
 - books<br>
