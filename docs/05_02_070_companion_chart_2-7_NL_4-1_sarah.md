@@ -2,10 +2,10 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-title:  "Grafiek 4.1 Lezersoordelen over Tatiana de Rosnay, <i>Haar naam was Sarah</i>"
+title:  "Figure 2.7: Ratings of Tatiana de Rosnay, *Haar naam was Sarah* (*Sarah’s Key*)"
 
 ---
-Interactieve kleurenversie van de grafiek op p. 59 van *Het raadsel literatuur*.
+Interactive version of the graph on p. 51 of *The Riddle of Literary Quality*.
 
 <script src="https://d3js.org/d3.v6.min.js" defer></script>
 <script src="https://d3js.org/d3-scale.v3.min.js" defer></script>
@@ -23,7 +23,5 @@ Interactieve kleurenversie van de grafiek op p. 59 van *Het raadsel literatuur*.
 </div>
 
 
-Een klik op een balk in de grafiek maakt zichtbaar hoeveel deelnemers aan Het Nationale Lezersonderzoek een bepaalde score aan de roman toekenden.
+A click on a bar in the graph reveals how many participants in The National Reader Survey assigned a certain score to the novel.
 
-<!-- **Hoe zijn de metingen te repliceren?**
-VOORBEELDQUERY HIER! -->

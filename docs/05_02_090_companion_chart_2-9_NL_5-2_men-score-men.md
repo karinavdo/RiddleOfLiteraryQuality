@@ -2,12 +2,12 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-title:  "Grafiek 5.2 Aantal beoordeelde boeken, onderscheiden naar geslacht auteur en geslacht lezer"
+title:  "Figure 2.9: Number of books rated, by gender author and gender reader"
 
 ---
-Interactieve kleurenversie van de grafiek op p. 92 van *Het raadsel literatuur*.
+Interactive version of the graph on p. 59 of *The Riddle of Literary Quality*.
 
-Door op de balken in de grafiek te klikken ziet u hoe vaak een boek van een vrouwelijke of mannelijke auteur is beoordeeld door vrouwelijke of mannelijke deelnemers aan Het Nationale Lezersonderzoek.
+By clicking on the bars in the graph, you can see how often a book by a female or male author was rated by female or male participants in The National Reader Survey.
 
 <script src="https://d3js.org/d3.v6.min.js" defer></script>
 <script src="https://d3js.org/d3-scale.v3.min.js" defer></script>
@@ -24,5 +24,4 @@ Door op de balken in de grafiek te klikken ziet u hoe vaak een boek van een vrou
   <div class="plot"></div>
 </div>
 
-<!-- **Hoe zijn de metingen te repliceren?**
-VOORBEELDQUERY HIER! -->
+
