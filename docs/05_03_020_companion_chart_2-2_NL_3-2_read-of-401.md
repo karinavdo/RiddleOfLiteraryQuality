@@ -2,10 +2,10 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-title:  "Grafiek 3.2 Aantal gelezen boeken en aantal beoordeelde boeken"
+title:  "Figure 2.2 Number of books read (left) and number of books rated (right)"
 
 ---
-Interactieve versie van de grafiek op p. 52 van *Het raadsel literatuur*.
+Interactive version of the graph on p. 42 of *The Riddle of Literary Quality*.
 
 <script src="https://d3js.org/d3.v6.min.js" defer></script>
 <script src="https://d3js.org/d3-scale.v3.min.js" defer></script>
@@ -30,7 +30,6 @@ Interactieve versie van de grafiek op p. 52 van *Het raadsel literatuur*.
   <div class="slider"></div>
 </div>
 
-Grafiek 3.2: Aantal gelezen van de 401 boeken (links) en aantal beoordeelde boeken (rechts).<br>
-Beide grafieken zijn interactief. Op de regel onder de horizontale as kunt u bepalen op welk deel van de grafiek u wilt inzoomen. Door op de balken in de grafiek te klikken ziet u hoeveel respondenten een getal in het geselecteerde bereik invulden.
-<!-- **Hoe zijn de metingen te repliceren?**
-VOORBEELDQUERY HIER! -->
+Figure 2.2: Number of books read out of 401 (left) and number of books reviewed (right).
+Both graphs are interactive. On the line below the horizontal axis, you can select which part of the graph you want to zoom in on. By clicking on the bars in the graph, you can see how many respondents filled in a number in the selected range.<br>
+
