@@ -2,12 +2,12 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-title:  "Grafiek 3.1 Aantal boeken dat deelnemers aangaven per jaar te lezen"
+title:  "Figure 2.1: Number of books respondents indicated to have read per year"
 
 ---
 
 
-Interactieve versie van de grafiek op p. 48 van *Het raadsel literatuur*.
+Interactive version of the graph on page 39 of *The Riddle of Literary Quality*.
 
 <script src="https://d3js.org/d3.v6.min.js" defer></script>
 <script src="https://d3js.org/d3-scale.v3.min.js" defer></script>
@@ -34,7 +34,10 @@ Interactieve versie van de grafiek op p. 48 van *Het raadsel literatuur*.
 
 <p id="value"></p>
 
-In de linker grafiek hierboven staat het aantal deelnemers afgezet tegen het aantal boeken dat zij aangaven per jaar ongeveer te lezen. De eerste verticale balk duidt aan dat iets minder dan 6100 deelnemers een aantal van 1 tot 20 boeken invulden, bijna 3800 deelnemers een getal van 21 tot 40, en zo verder. <br> De rechter grafiek is interactief. Hier kunt u de precieze aantallen achterhalen. Op de regel onder de horizontale as kunt u bepalen op welk deel van de grafiek u wilt inzoomen; sleep de rechter markering bijvoorbeeld helemaal naar rechts en de linker naar 300. Door op de balken in de grafiek te klikken ziet u hoeveel respondenten een getal in het geselecteerde bereik invulden. Zo ziet u dat er een paar deelnemers waren die gemiddeld meer dan 1 boek per dag lazen.
+The left graph above shows the number of participants compared to the approximate number of books they indicated they read per year. The first vertical bar indicates that just under 6100 participants filled in a number from 1 to 20 books, almost 3800 participants filled in a number from 21 to 40, and so on.
+The right-hand chart is interactive. Here you can find out the exact numbers. On the line below the horizontal axis, you can determine which part of the graph you want to zoom in on; for example, drag the right marker all the way to the right and the left one to 300. By clicking on the bars in the graph, you can see how many respondents filled in a number in the selected range. For example, you can see that there were a few participants who read more than 1 book per day on average.
+
+
 
 <!-- **Hoe zijn de metingen te repliceren?**
 VOORBEELDQUERY HIER! -->
