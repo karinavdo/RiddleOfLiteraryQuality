@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 # kleur is een html kleurnaam of een code #dfdfdf (heel wit). Color picker: https://htmlcolorcodes.com/.
-title:  "<b>Extra grafiek</b> Aantal gelezen boeken per jaar per leeftijdsgroep"
+title:  "<b>Additional figure to Figure 2.1k</b> Number of read books per year per age group"
 
 ---
 Interactieve grafiek ter verdieping van Grafiek 3.1 op p. 48 van *Het raadsel literatuur*.
@@ -20,7 +20,4 @@ Interactieve grafiek ter verdieping van Grafiek 3.1 op p. 48 van *Het raadsel li
 <!-- TODO: solve below hack to clear -->
 <div style="clear: both;"></div>
 
-De linker grafiek geeft per leeftijdcategorie in een balk aan hoeveel boeken deelnemers uit die leeftijdsgroep aangaven per jaar ongeveer te lezen. De rechter grafiek presenteert dan de details voor de geselecteerde leeftijdsgroep.
-
-<!-- **Hoe zijn de metingen te repliceren?**
-VOORBEELDQUERY HIER! -->
+The left graph shows in a bar for each age category the approximate number of books participants from that age group reported reading per year. The right graph then presents the details for the selected age group.
