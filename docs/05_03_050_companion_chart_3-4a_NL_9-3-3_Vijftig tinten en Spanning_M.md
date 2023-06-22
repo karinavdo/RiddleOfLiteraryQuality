@@ -1,5 +1,5 @@
 ---
-title: "<b>Additional graphs</b> <i>Fifty Shades</i> and Suspense witten by men"
+title: "<b>Additional graphs</b>: <i>Fifty Shades</i> and Suspense witten by male authors"
 
 ---
 
@@ -7,26 +7,25 @@ Additional graphs for p. 72 of *The Riddle of Literary Quality*.
 
 These graphs have also been created using the Stylo Package for R. See Figure 3.1 for more information about the package and the measures.
 
-In *Het raadsel literatuur* zijn twee grafieken afgedrukt waarin de *Vijftig tinten*-trilogie van E.L. James wordt vergeleken met andere romans om uit te vinden op welk genre de boeken het meeste lijken in woordfrequenties; in Grafiek 9.2 met Romantiek en in Grafiek 9.3 met Spanning van de hand van vrouwelijke auteurs. In Grafiek 9.3 zijn alleen de spannende boeken van vrouwen opgenomen omdat de visualisatie anders niet meer leesbaar zou zijn. Hier presenteer ik ook de grafieken waarin de trilogie wordt vergeleken met Spanning geschreven door mannelijke auteurs. Een vergelijking met de Literaire romans uit het onderzoekscorpus staat in een volgende webpagina.
+In *The Riddle of Literary Quality* two graphs feature the *Fifty Shades*-trilogy by E.L. James, comparing them with other novels to find out to which genre they are closest in their word frequencies. Figure 3.3 compares them to Romance and Figure 3.4 to Suspense written by female authors. Figure 3.4 only included novels by female authors because otherwise the graph would be too cluttered. Here, some additional graphs are presented in which the trilogy is compared with Suspense novels written by male authors. The comparison with Literary novels can be found in the next item on this website.
 
-**Grafiek 9.3.3 Vijftig tinten en Spanning geschreven door mannen**
+**Figure 3.4.3: <i>Fifty Shades</i> Trilogy and Suspense written by male authors**
 
-Uit het Engels vertaalde romans staan weergegeven met een E_ voor de auteur en verkorte titel, en oorspronkelijk Nederlandstalige romans zijn aangeduid met N_. De O_ voor de Vijftig tinten-trilogie staat voor Overig. Maat: PCA, correlatieversie.
-![Grafiek 9.3.3](public/9_3_3_PCA_1000_MFWs_Culled_0__PCA__corr.png)
+Novels translated from English are shown with an E_ for the author and abbreviated title, and originally Dutch-language novels are marked N_. The O_ for the Fifty Shades trilogy stands for Other. Measure: PCA, correlation version.
 
-**Grafiek 9.3.4 Vijftig tinten en Spanning geschreven door mannen**
+![Figure 3.4.3](public/9_3_3_PCA_1000_MFWs_Culled_0__PCA__corr.png)
 
-Clusteranalyse (**1000** meest frequente woorden). Maat: Classic Delta.
-![Grafiek 9.3.4](public/9_3_4_CA_1000_MFWs_Culled_0__Classic Delta.png)
+**Figure 3.4.4: <i>Fifty Shades</i> Trilogy and Suspense written by male authors**
 
-**Grafiek 9.3.5 Vijftig tinten en Spanning geschreven door mannen**
+Cluster analysis (**1000** most frequent words). Measure: Classic Delta.
+![Figure 3.4.4](public/9_3_4_CA_1000_MFWs_Culled_0__Classic Delta.png)
 
-Bootstrap consensus tree (**100** - **1000** meest frequente woorden, increment van 100, consensus strength 0.5). Maat: Classic Delta.
-![Grafiek 9.3.5](public/9_3_5_BCT_100-1000_MFWs_Culled_0__Classic Delta_C_0.5.png)
+**Figure 3.4.5: <i>Fifty Shades</i> Trilogy and Suspense written by male authors**
 
-**Conclusie**
+Bootstrap consensus tree (**100** - **1000** most frequent words, increment 100, consensus strength 0.5). Measure: Classic Delta.
+![Figure 3.4.5](public/9_3_5_BCT_100-1000_MFWs_Culled_0__Classic Delta_C_0.5.png)
 
-De *Vijftig tinten*-trilogie staat verder af van de spannende boeken uit het onderzoekscorpus die zijn geschreven door mannelijke auteurs dan van die van de hand van vrouwelijke auteurs (zie bijvoorbeeld de Delta score in Grafiek 9.3.4 onder de grafiek ter hoogte van de plaats waar de trilogie samenclustert met een zestal spannende boeken). Wat verder opvalt in deze extra grafieken is dat de Nederlandse en vertaalde spannende boeken goed gemengd voorkomen, terwijl er in de analyses van de spannende boeken van vrouwen in Grafiek 9.3 een veel groter verschil lijkt te zijn tussen Nederlandseen vertaalde titels. Meer hierover in *Het raadsel literatuur* op p. 245-247.
+**Conclusion**
 
-<!-- **Hoe zijn de metingen te repliceren?**
-VOORBEELDQUERY HIER! -->
+The *Fifty Shades* trilogy is further removed from the Suspense novels written by male authors than from those written by female authors (see, for example, the Delta score in Figure 3.4.4 below the graph at the level where the trilogy clusters with about six Suspense novels). Furthermore, it is striking in these additional graphs that Dutch and translated Suspense novels appear well mixed, whereas in the analyses of women's Suspense novels in Figure 3.4, there seems to be a much larger difference between Dutch and translated titles. More on this in *The Riddle of Literary Quality* on pp. 72-73.
+
