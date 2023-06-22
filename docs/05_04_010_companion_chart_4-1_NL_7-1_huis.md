@@ -2,10 +2,10 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-title:  "Grafiek 7.4 Lezersoordelen over Emma Donoghue, <i>Kamer</i>"
+title:  "Figure 4.1: Ratings of Nicole Krauss, <i>Het grote huis</i> (<i>Great House</i>)"
 
 ---
-Interactieve kleurenversie van de grafiek op p. 144 van *Het raadsel literatuur*.
+Interactive version of the graph on p. 97 of *The Riddle of Literary Quality*.
 
 <script src="https://d3js.org/d3.v6.min.js" defer></script>
 <script src="https://d3js.org/d3-scale.v3.min.js" defer></script>
@@ -17,13 +17,10 @@ Interactieve kleurenversie van de grafiek op p. 144 van *Het raadsel literatuur*
 <script src="js/companion_abstraction_barchart.js" defer></script>
 
 <script src="js/companion_chart_bookrating.js" defer></script>
-<script src="js/companion_chart_7-4_kamer.js" defer></script>
+<script src="js/companion_chart_7-1_huis.js" defer></script>
 
-<div class="chart_float" id="chart_7-4_kamer">
+<div class="chart_float" id="chart_7-1_huis">
   <div class="plot"></div>
 </div>
 
-Een klik op een balk in de grafiek maakt zichtbaar hoeveel deelnemers aan Het Nationale Lezersonderzoek een bepaalde score aan de roman toekenden.
-
-<!-- **Hoe zijn de metingen te repliceren?**
-VOORBEELDQUERY HIER! -->
+A click on a bar in the graph reveals how many participants in The National Reader Survey assigned a certain score to the novel.
