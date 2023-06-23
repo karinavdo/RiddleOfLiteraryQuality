@@ -2,10 +2,10 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-title:  "Grafiek 8.1 Lezersoordelen over Julian Barnes, <i>Alsof het voorbij is</i>"
+title:  "Figure 5.4: Ratings of Mart Smeets, <i>De afrekening</i> (*<i>The Reckoning</i>)"
 
 ---
-Interactieve kleurenversie van de grafiek op p. 176 van *Het raadsel literatuur*.
+Interactive version of the graph on p. 136 of *The Riddle of Literary Quality*.
 
 <script src="https://d3js.org/d3.v6.min.js" defer></script>
 <script src="https://d3js.org/d3-scale.v3.min.js" defer></script>
@@ -17,13 +17,10 @@ Interactieve kleurenversie van de grafiek op p. 176 van *Het raadsel literatuur*
 <script src="js/companion_abstraction_barchart.js" defer></script>
 
 <script src="js/companion_chart_bookrating.js" defer></script>
-<script src="js/companion_chart_8-1_is.js" defer></script>
+<script src="js/companion_chart_8-5_afrekening.js" defer></script>
 
-<div class="chart_float" id="chart_8-1_is">
+<div class="chart_float" id="chart_8-5_afrekening">
   <div class="plot"></div>
 </div>
 
-Een klik op een balk in de grafiek maakt zichtbaar hoeveel deelnemers aan Het Nationale Lezersonderzoek een bepaalde score aan de roman toekenden.
-
-<!-- **Hoe zijn de metingen te repliceren?**
-VOORBEELDQUERY HIER! -->
+A click on a bar in the graph reveals how many participants in The National Reader Survey assigned a certain score to the novel.

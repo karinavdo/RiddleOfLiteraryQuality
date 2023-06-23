@@ -23,7 +23,5 @@ Bootstrap consensus tree (**100** - **1000** most frequent words, increment 100,
 
 **Conclusion**
 
-De extra metingen bevestigen het beeld dat er in de woordfrequenties van de Nederlandse literaire romans van vrouwelijke auteurs geen duidelijk verschil te vinden is tussen de romans die de hoogste of de laagste scores kregen voor literaire kwaliteit of die tot de middengroep behoorden. Meer hierover in *Het raadsel literatuur* op p. 158-159 en 164-165. Het opvallende resultaat voor de twee romans van Renate Dorrestein wordt uitvoerig beschreven op p. 165-173 in *Het raadsel literatuur*.
-
 The additional measurements confirm the picture that no clear difference can be found in the word frequencies of Dutch Literary novels by female authors between the novels that received the highest or lowest scores for literary quality or belonged to the middle group. The striking result for Renate Dorrestein's two novels is described in detail on pp. 115-121 in *The Riddle of Literary Quality*.
 
