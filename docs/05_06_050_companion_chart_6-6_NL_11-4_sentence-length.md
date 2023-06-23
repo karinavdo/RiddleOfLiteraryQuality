@@ -2,12 +2,12 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-title:  "Grafiek 10.1 Gemiddelde zinslengte voor alle 401 boeken en Grafiek 10.2 Zinslengtevariatie"
-
+title:  "Figure 6.6: Mean sentence length (in words) of Dutch-language Literary novels"
 ---
-Interactieve kleurenversie van de grafieken op p. 274 en 275 van *Het raadsel literatuur*.
+Interactive version of the graph on p. 174 of *The Riddle of Literary Quality*.
 
-Als u de muis boven een symbool in de grafiek laat rusten, wordt zichtbaar welk boek het betreft (de naam van de auteur en de titel van het boek).
+Hovering over a symbol in the graph reveals which book is represented (the author's name and the title of the book).
+
 
 <style>
 path.regressionLine {
@@ -25,10 +25,8 @@ path.regressionLine {
 <script src="js/companion_utils_colors.js" defer></script>
 <script src="js/companion_utils_svg2png.js" defer></script>
 
-<script src="js/companion_chart_10-1_sentence-length.js" defer></script>
+<script src="js/companion_chart_11-4_sentence-length.js" defer></script>
 
-<div class="chart_float" id="chart_10-1_sentence-length"></div>
-<div class="chart_float" id="chart_10-2_sentence-length-variance"></div>
+<div class="chart_float" id="chart_11-4_sentence-length"></div>
+<div class="chart_float" id="chart_11-5_sentence-length-variance"></div>
 
-<!-- **Hoe zijn de metingen te repliceren?**
-VOORBEELDQUERY HIER! -->
