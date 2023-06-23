@@ -4,7 +4,7 @@
 
 home: "true"
 ---
-![1_1_0_Omslag_boek 1.1.0](public/1_1_0_Omslag_boek.png)
+![1_1_1_Omslag_promo 1.1.1](public/1_1_1_Omslag_promo.png)
 
 [NEWS](02_03_news.html) | [REVIEWS](02_06_reviews.html) | [DATA AND R PACKAGE](02_07_data_and_the_R_package.html)
 
