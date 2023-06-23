@@ -17,7 +17,7 @@ These graphs have also been created using the Stylo Package for R. See Figure 3.
 Figure 5.2.1 presents a cluster analysis and Figure 5.2.2 a bootstrap consensus tree of the same three groups of translated literary novels by male authors as in Figure 5.2.
 
 
-**Figure 5.2.1 Translated Literary novels written by male authors**
+**Figure 5.2.1: Translated Literary novels written by male authors**
 
 Cluster analysis (**1000** most frequent words). Measure: Classic Delta.
 ![Figure 5.2.1](public/8_2_1_CA_1000_MFWs_Culled_0__Classic Delta.png)
@@ -25,7 +25,7 @@ Cluster analysis (**1000** most frequent words). Measure: Classic Delta.
 The visualisation of this cluster analysis also clearly shows that books by the same author tend to be most similar to each other. Furthermore, there are no separate branches for novels that received the highest or lowest scores for literary quality or belonged to the middle group. Interestingly, the two novels by Henning Mankell appear in different clusters, as do the two novels by Renate Dorrestein in Figure 4.6 and 4.7.
 
 
-**Figure 5.2.2 Translated Literary novels written by male authors**
+**Figure 5.2.2: Translated Literary novels written by male authors**
 
 Bootstrap consensus tree (**100** - **1000** most frequent words, increment 100, consensus strength 0.5). Measure: Classic Delta.
 ![Figure 5.2.2](public/8_2_2_BCT_100-1000_MFWs_Culled_0__Classic Delta_C_0.5.png)

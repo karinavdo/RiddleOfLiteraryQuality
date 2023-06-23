@@ -30,7 +30,7 @@ Bootstrap consensus tree (**100** - **1000** most frequent words, increment 100,
 Novels translated from English are shown with an E_ before the author and abbreviated title, and originally Dutch-language novels are indicated by N_. The O_ for the *Fifty Shades* trilogy stands for Other. Measure: PCA, correlation version.
 ![Figure 3.4.9](public/9_3_9_PCA_1000_MFWs_Culled_0__PCA__corr.png)
 
-**Figure 9.3.10: *Fifty Shades* and Literary novels written by men**
+**Figure 3.4.10: *Fifty Shades* and Literary novels written by men**
 
 Cluster analysis (**1000** most frequent words). Measure: Classic Delta.
 ![Figure 3.4.10](public/9_3_10_CA_1000_MFWs_Culled_0__Classic Delta.png)

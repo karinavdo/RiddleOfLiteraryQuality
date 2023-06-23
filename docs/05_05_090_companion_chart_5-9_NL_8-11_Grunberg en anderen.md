@@ -26,5 +26,5 @@ Principal components analysis (**1000** most frequent words). Measure: PCA, corr
 
 **Conclusion**
 
-It remains unclear why the literary Grunberg is more closely aasociated with the not very literary Romance novels; again, more research than that on words alone is needed (and an account of that research is described in Chapter 6 of *The Riddle of Literary Quality*).
+It remains unclear why the literary Grunberg is more closely aasociated with the not very literary Romance novels; again, more research than that on words alone is needed (and an account of that research is described in Chapter 5 of *The Riddle of Literary Quality*).
 

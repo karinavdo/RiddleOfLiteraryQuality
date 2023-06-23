@@ -1,5 +1,5 @@
 ---
-title: "Figure 3.5: Translated Literary novels written by male authors and three Suspense novels by Mankell, PCA (1000 most frequent words)"
+title: "Figure 3.5: Translated Literary novels written by male authors and three Suspense novels by Mankell"
 
 ---
 
@@ -19,8 +19,6 @@ Figure 3.5.1 presents a cluster analysis and Figure 3.5.2 a bootstrap consensus 
 
 Cluster analysis (**1000** most frequent words). Measure: Classic Delta.
 ![Figure 3.5.1](public/8_3_1_CA_1000_MFWs_Culled_0__Classic Delta.png)
-
-Ook in de visualisatie van deze clusteranalyse is duidelijk te zien dat boeken van dezelfde auteur gewoonlijk het meest op elkaar lijken. Vier van de vijf romans van Mankell clusteren bij elkaar - drie uit de categorie Spanning en een van zijn twee literaire romans. De vijfde, literaire roman staat iets verder weg, maar nog wel in dezelfde hoofdtak. Als we naar de Deltascores kijken (weergegeven op de horizontale as) op de plaats waar de takken zich afsplitsen is ook te zien dat de romans van Mankell iets minder ver van elkaar af staan dan de twee romans van Renate Dorrestein in Grafiek 7.7 (iets onder de score 2 respectievelijk iets daarboven).
 
 The visualisation of this cluster analysis also clearly shows that books by the same author are usually most similar to each other. Four of Mankell's five novels cluster together - three from the Suspense category and one of his two Literary novels. The fifth, Literary novel is slightly further away, but still in the same main branch.
 

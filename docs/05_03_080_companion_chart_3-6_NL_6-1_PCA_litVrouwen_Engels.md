@@ -1,5 +1,5 @@
 ---
-title: "Figure 3.6:Literary novels by female authors written in Dutch and translated from English"
+title: "Figure 3.6: Literary novels by female authors written in Dutch and translated from English"
 
 ---
 
@@ -27,7 +27,7 @@ The cluster of four books furthest away from the other titles in Figure 3.6.1 (w
 
 Bootstrap consensus tree (**100** - **1000** most frequent words, increment 100, consensus strength 0.5). Measure: Classic Delta.
 ![Figure 3.6.2](public/6_1_2_BCT_100-1000_MFWs_Culled_0__Classic Delta_C_0.5.png)
-In Chart 6.1.2, there are a lot of Dutch Literary novels and Literary novels translated from English at the top directly connected to the centre of the graph. This means that for all these novels, the software could not identify which other novel they most resembled. So the place they occupy in the visualisation says nothing about the relationships between them.
+In Figure 6.1.2, there are a lot of Dutch Literary novels and Literary novels translated from English at the top directly connected to the centre of the graph. This means that for all these novels, the software could not identify which other novel they most resembled. So the place they occupy in the visualisation says nothing about the relationships between them.
 
 **Conclusion**
 

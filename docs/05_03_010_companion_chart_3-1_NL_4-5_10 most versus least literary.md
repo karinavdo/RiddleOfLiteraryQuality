@@ -1,5 +1,5 @@
 ---
-title: "Figure 3.1: The ten novels with the highest and lowest scores for literary quality, Cluster Analysis (100 most frequent words)"
+title: "Figure 3.1: The ten novels with the highest and lowest scores for literary quality"
 
 ---
 
@@ -9,7 +9,7 @@ Colour version of the graph on p. 65 of *The Riddle of Literary Quality*.
 The 10 novels with the highest (H) and lowest (L) scores for literary quality, cluster analysis (100 most frequent words).
 
 Measure: Classic Delta (the Delta score is indicated below the horizontal axis).
-![Grafiek 4.5](public/4_5_0_CA_100_MFWs_Culled_0__Classic Delta.png)
+![Figure 3.1](public/4_5_0_CA_100_MFWs_Culled_0__Classic Delta.png)
 
 Figure 3.1 shows that two books from the top 10, namely *Alsof het voorij is* (*The Sense of an Ending*) by Julian Barnes and *Norwegian wood* (*Norwegian Wood*) by Haruki Murakami are more similar in the use of the 100 most frequent words to the cluster of books by Weisberger, Fforde and Mansell that received very low scores for literary quality and to the cluster Kinsella and James, than to the 8 other novels that received the highest literary scores.
 
@@ -47,7 +47,7 @@ Bootstrap consensus tree (**100** - **1000** most frequent words, increment van 
 As shown above, the outcome of cluster analyses based on different numbers of most frequent words (MFW) is not always the same. It is useful to do a whole range of different cluster analyses and then calculate some kind of average from them. This can be done by choosing a bootstrap consensus tree in Stylo. The graph below visualises the result of averaging cluster analyses made from the 100 MFW to the 1000 MFW with an increment of 100; that means a total of ten cluster analyses (100, 200, 300, ...., 900 and 1000 MFW). The chosen consensus strength is 0.5, meaning that two novels or clusters are clustered together if they are most similar in at least half of the measurements. Figure 3.1.3 shows that the bootstrap consensus analysis in this case clusters all the most literary books found together against all novels that were considered least literary.
 
 
-**GFigure 3.1.4: Top 10 most literary and least literary**
+**Figure 3.1.4: Top 10 most literary and least literary**
 
 Principal components analysis (**1000** most frequent words). Measure: PCA, correlation version.
 ![Figure 3.1.4](public/4_5_4_PCA_1000_MFWs_Culled_0__PCA__corr.png)
@@ -55,7 +55,6 @@ In the visualisation of this measurement, we see that the 10 most literary books
 
 **Conclusion**
 
-De conclusie die uit al deze metingen te trekken is (meer hierover in *Het raadsel literatuur* op p. 73 en verder), is dat de meest literair gevonden romans een ander woordfrequentiepatroon hebben dan de minst literaire boeken. Dat heeft echter naar alle waarschijnlijkheid eerder te maken met een genreverschil en genreconventies op het niveau van het woordgebruik dan met een verschil in toegekende literaire kwaliteit.
 The conclusion to be drawn from all these measurements (more on this in *The Riddle of Literary Quality* on p. 65-66) is that the most literary novels have a different word frequency pattern than the least literary books. In all likelihood, however, this has more to do with a genre difference and genre conventions at the level of word frequency than with a difference in assigned literary quality.
 
 

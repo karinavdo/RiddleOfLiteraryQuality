@@ -5,7 +5,7 @@ title: "Figure 6.5: Literary quality top 10 of Dutch-language novels by female a
 
 Colour version of the graph on p. 174 of *The Riddle of Literary Quality*.
 
-Literary quality top 10 of Dutch-language novels by female (F_) and male (M_) authors,principal components analysis (1000 most frequent words). Measure: PCA, correlation version.
+Literary quality top 10 of Dutch-language novels by female (F_) and male (M_) authors, principal components analysis (1000 most frequent words). Measure: PCA, correlation version.
 ![Figure 6.5](public/11_3_0_PCA_1000_MFWs_Culled_0__PCA__corr.png)
 
 ### **Additional graphs: Literary quality top 10 of Dutch-language novels by female and male authors (2)**

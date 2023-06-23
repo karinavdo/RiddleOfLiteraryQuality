@@ -5,7 +5,7 @@ title: "Figure 3.4: E.L. James, the <i>Fifty Shades</i> Trilogy and Suspense wri
 
 Colour version of the graph on p. 72 of *The Riddle of Literary Quality*.
 
-E.L. James, the *Fifty Shades* Trilogy and Suspense written by female authors, PCA (1000 most frequent words). 
+E.L. James, the *Fifty Shades* Trilogy and Suspense written by female authors, principal components analysis (1000 most frequent words). 
 Novels translated from English are shown with an E_ before the author and abbreviated title, and originally Dutch-language novels are marked N_. The O_ for the *Fifty Shades* trilogy stands for Other. Measure: PCA, correlation version.
 ![Figure 3.4](public/9_3_0_PCA_1000_MFWs_Culled_0__PCA__corr.png)
 

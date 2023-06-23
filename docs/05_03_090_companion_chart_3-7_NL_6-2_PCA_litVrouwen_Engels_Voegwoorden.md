@@ -14,7 +14,7 @@ These graphs have also been created using the Stylo Package for R. See Figure 3.
 
 **Figure 3.7.1: Conjunctions in Literary novels by female authors written in Dutch and translated from English**
 
-The conjunctions *en* (and), *toen* (then), *dat* (that), *voordat* (before), *terwijl* (while), and *hoewel* (although) in Literary novels by female authors written in Dutch (N_) and translated from English (E_). Measure: Clusteranalyse (6 words). Measure: Classic Delta.
+The conjunctions *en* (and), *toen* (then), *dat* (that), *voordat* (before), *terwijl* (while), and *hoewel* (although) in Literary novels by female authors written in Dutch (N_) and translated from English (E_). Measure: Cluster analysis (6 words). Measure: Classic Delta.
 ![Figure 3.7.1](public/6_2_1_CA_6_MFWs_Culled_0__Classic Delta.png)
 
 Figure 3.7.1 shows the same rough dichotomy as in the visualisation of the analysis by main components in Figure 3.7. What is striking here is that the two novels by Renate Dorrestein that ended up in different clusters in Figure 3.6 do look most similar here. So the difference between those two novels does not lie in a different handling of these six conjunctions.
