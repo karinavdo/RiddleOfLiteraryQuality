@@ -22,7 +22,7 @@ Interactive version of the graph on p. 50 of *The Riddle of Literary Quality*.
   <div class="plot"></div>
 </div>
 
+<br>
 A click on a bar in the graph reveals how many of the 401 books got that average score.
 
-<!-- **Hoe zijn de metingen te repliceren?**
-VOORBEELDQUERY HIER! -->
+

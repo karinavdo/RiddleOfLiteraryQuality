@@ -1,5 +1,5 @@
 ---
-title: "Data and the R Package"
+title: "Data and R Package"
 ---
 The book *The Riddle of Literary Quality* presents a synthesis of research findings from the project The Riddle of Literary Quality. That project brought together a lot of data: the opinions on 401 books of almost 14,000 participants in The National Reader Survey (2013) and all kinds of data on those 401 books. More about The Riddle of Literary Quality can be found on the [project website](https://literaryquality.huygens.knaw.nl/), which also collects all the [publications](https://literaryquality.huygens.knaw.nl/?page_id=588) that came out of it.
 
@@ -9,7 +9,7 @@ The csv files and a description of what they contain can be found in the [Riddle
 
 R is a free software environment in which statistical analyses can be done and their results visualised in graphs. R can be downloaded from the [R website](https://www.r-project.org/). Once R is installed, you can then load the desired R package. More on data, package and how to use it below.
 
-**The litRiddle R package**
+**The litRiddle package for R**
 
 The new version of the *litRiddle* package for R will be available soon on CRAN (The Comprehensive R Archive Network). The package can be installed in R with 
 
