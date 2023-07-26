@@ -5,13 +5,13 @@ The book *The Riddle of Literary Quality* presents a synthesis of research findi
 
 The data used by Karina van Dalen-Oskam for the book *The Riddle of Literary Quality* have been made available, insofar as they may be shared, in two ways: in csv files and in the litRiddle package for R. An exception to this are the research data underlying Andreas van Cranenburgh's work, as described in Chapter 6. Those can be found at [Andreas van Cranenburgh's website](https://andreasvc.github.io/).
 
-The csv files and a description of what they contain can be found in the [RiddleData repository in Github](https://github.com/karinavdo/RiddleData). The litRiddle R package and all necessary information about it are stored in the [LitRiddle Data repository in Github](https://github.com/karinavdo/LitRiddleData).
+The csv files and a description of what they contain can be found in the [RiddleData repository in Github](https://github.com/karinavdo/RiddleData). The litRiddle R package version 1.0.0 is available through CRAN as of 25 July 2023. More information in [CRAN](https://cran.r-project.org/web/packages/litRiddle/index.html) and in the [LitRiddle Data repository in Github](https://github.com/karinavdo/LitRiddleData).
 
 R is a free software environment in which statistical analyses can be done and their results visualised in graphs. R can be downloaded from the [R website](https://www.r-project.org/). Once R is installed, you can then load the desired R package. More on data, package and how to use it below.
 
 **The litRiddle package for R**
 
-The new version of the *litRiddle* package for R will be available soon on CRAN (The Comprehensive R Archive Network). The package can be installed in R with 
+The *litRiddle* package for R version 1.0.0 is available as of 25 July 2023. It can be installed in R with 
 
 - install.packages("litRiddle")<br>
 
@@ -23,7 +23,7 @@ More information about the package can then be found with
 
 - vignette("litRiddle")
 
-The litRiddle package was developed by Maciej Eder, Joris van Zundert, Saskia Lensink and Karina van Dalen-Oskam. How to quote the package can be found in the vignette and on Github.
+The litRiddle package was developed by Maciej Eder, Joris van Zundert, Saskia Lensink and Karina van Dalen-Oskam. How to cite the package can be found in the vignette, in CRAN and on Github.
 
 
 
